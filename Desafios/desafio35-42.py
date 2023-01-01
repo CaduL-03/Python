@@ -9,5 +9,5 @@ else:
 
 if r1 == r2 and r1 == r3:
     print('É um triângulo equilátero.')
-elif 
+elif r1 != r2 
     print('É um triângulo isósceles.')
