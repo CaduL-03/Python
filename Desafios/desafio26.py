@@ -1,0 +1,5 @@
+nome = str(input('Digite uma frase aleatoria: '))
+num = nome.count('a')
+local1 = nome.find('a')
+local2 = nome.rfind('a')
+print('A frase {} têm {} a`s, o primeiro aparece na posição {} e o último {}.'.format(nome,num,local1,local2))
