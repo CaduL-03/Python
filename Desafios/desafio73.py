@@ -1,0 +1,11 @@
+lista = ('Palmeiras', 'Flamengo', 'Cruzeiro', 'Internacional', 'Fluminense', 'Corinthians', 'Athletico-PR', 'Atlético', 'Fortaleza', 'São Paulo', 'América', 'Botafogo', 'Santos', 'Goiás', 'Red Bull Bragantino', 'Coritiba', 'Cuiabá', 'Grêmio', 'Vasco', 'Bahia')
+
+print('-='*15)
+print(f'Lista de times do Brasileirão: {lista}')
+print('-='*15)
+print(f'Os 5 primeiros são {lista[0:5]}')
+print('-='*15)
+print(f'Os últimos são {lista[-4:]}')
+print('-='*15)
+print(f'Times em ordem alfabética {sorted(lista)}')
+print('O Vasco está na posição {}*'.format(lista.index('Vasco')+1))
