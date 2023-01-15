@@ -10,4 +10,4 @@ def fatorial(num = 1, show=False):
         f *= c
     return f
 
-print(fatorial(5, show=True))
+print(fatorial(8, show=True))
